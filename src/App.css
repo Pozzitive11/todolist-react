@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 24px;
+}
+
+li{
+  list-style: none;
+}
+
+h1{
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+input {
+  width: 45%;
+  height: 30px;
+  font-size: 1.3rem;
+}
+
+button {
+  margin-left: 20px;
+  height: 50px;
+  cursor: pointer;
+  background-color: beige;
+  font-size: 1.5rem;
+}
+
+button:hover {
+  background-color: rgb(240, 240, 155);
+}
+
+input,
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+}
